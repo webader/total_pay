@@ -1,0 +1,138 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+a {
+    text-decoration: none; 
+    line-height: 1.2;
+    text-transform: uppercase;    
+}
+
+.container {
+    max-width: 1220px;
+    margin: auto;
+}
+
+.main__header .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 28px 0;
+}
+
+.menu__list { 
+    display: flex;
+}
+
+.menu__item {
+    list-style-type: none;
+    padding-left: 45px;
+}
+
+.item__href {
+    font-family: Poppins;
+    font-size: 13px;
+    line-height: 12px;
+    font-weight: 500;
+    letter-spacing: 0.075em;
+    color: #afafaf;
+}
+
+.item__href:hover {
+    color: #48a4d0;
+}
+
+.btn {
+    width: 115px;
+    height: 38px;
+    border: 1px solid #00aac6;
+    border-radius: 6px;    
+    text-align: center;    
+    font-size: 12px;
+    line-height: 40px;
+    font-weight: 600;
+    letter-spacing: -0.025em;
+    color: #00aac6;
+    vertical-align: middle;
+}
+
+.apply {
+    background-color: #00aac6;
+    background-image: linear-gradient(270.0deg, #64a8c6 0%, #72bec1 100%);
+    border-radius: 6px;
+    color: #ffffff;
+}
+
+.offer {
+    padding: 260px 0 220px;
+    background: no-repeat  url("../img/main_bg.png");
+    background-size: cover;
+}
+
+.offer__title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 53px;
+    line-height: 53px;
+    font-weight: 600;
+    letter-spacing: -0.025em;
+    color: #ffffff;
+}
+
+.offer__btn {
+    margin-top: 35px;
+    display: inline-block;
+    text-align: center;
+    width: 253px;
+    height: 53px;
+    background-color: #ffffff;
+    box-shadow: 3px 5px 33px 7px rgba(0,0,0,0.12);
+    border-radius: 6px;
+    font-size: 12px;
+    line-height: 53px;
+    font-weight: 600;
+    letter-spacing: -0.025em;
+    color: #00aac6;
+}
+
+.about {
+    padding: 260px 0 220px;
+    background: no-repeat  url("../img/abaut_bg.png");
+    background-size: cover;
+}
+
+.about__title { 
+    margin-bottom: 55px;       
+    font-size: 36px;
+    line-height: 53px;
+    font-weight: 600;
+    letter-spacing: -0.025em;
+    color: #00aac6;
+}
+
+.about__text {
+    max-width: 496px ;
+    font-family: Poppins;
+    font-size: 12px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #434343;
+}
+
+.choose {
+
+}
+
+.choose__title {
+    font-size: 36px;
+    line-height: 53px;
+    font-weight: 600;
+    letter-spacing: -0.025em;
+    color: #ffffff;
+}
+
