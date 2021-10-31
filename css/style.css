@@ -359,3 +359,161 @@ input {
     color: #858585;
 }
 
+
+@media only screen and (max-width: 1400px) {
+    .container {
+        max-width: 1220px;
+        padding: 0 12px;
+    }
+
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .container {
+        max-width: 1140px;
+        padding: 0 12px;
+    }
+    .menu__item {
+        padding-left: 20px;
+    }
+
+}
+
+@media only screen and (max-width: 992px) {
+    .container {
+        max-width: 960px;
+        padding: 0 12px;
+    }
+    .menu__list {
+        display: none;
+    }
+
+    .main__header .row {
+        justify-content: space-around;
+    }
+
+    .right img {
+        max-width: 85%;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        max-width: 720px;
+        padding: 0 12px;
+    }
+    .menu__list {
+        display: none;
+    }
+
+    .main__header .row {
+        justify-content: space-around;
+    }
+
+    .right img {
+        max-width: 85%;
+        margin-top: 40px;
+    }
+
+    .choose__list {
+        flex-direction: column;
+    }
+
+    .list__text {
+        max-width: 100%;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    .integration .row {
+        flex-direction: column;
+    }
+
+    .features__list {
+        flex-direction: column;
+    }
+
+    .features__item-text {
+        max-width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .features__list {
+        margin-top: 40px;
+    }
+
+}
+
+
+@media only screen and (max-width: 576px) {
+    .container {
+        max-width: 540px;
+        padding: 0 12px;
+    }
+    .menu__list {
+        display: none;
+    }
+
+    .main__header .row {
+        justify-content: space-around;
+    }
+
+    .right img {
+        max-width: 85%;
+        margin-top: 40px;
+    }
+
+    .integration .right {
+        margin-left: 0;
+    }
+
+    .choose__list {
+        flex-direction: column;
+    }
+
+    .list__text {
+        max-width: 100%;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    .integration .row {
+        flex-direction: column;
+    }
+
+    .features__list {
+        flex-direction: column;
+    }
+
+    .features__item-text {
+        max-width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .features__list {
+        margin-top: 40px;
+    }
+
+    .specific__form {
+        flex-direction: column;
+    }
+
+    .right__form {
+        padding-left: 0;
+    }
+
+    .submit__form {
+        margin-top: 50px;
+        float: inherit;
+        width: 100%;
+    }
+
+    .footer__card .row {
+        flex-direction: column;
+    }
+    .footer__card img {
+        margin-left: 20px;
+    }
+}
