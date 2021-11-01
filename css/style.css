@@ -601,6 +601,10 @@ input {
         margin-top: 40px;
     }
 
+    .specific {
+        margin-top: 40px;
+    }
+
     .specific__form {
         flex-direction: column;
     }
@@ -617,6 +621,10 @@ input {
 
     .footer__card .row {
         flex-direction: column;
+    }
+
+    .right__wrap {
+        margin-top: 30px;
     }
 
 }
@@ -704,6 +712,10 @@ input {
         margin-top: 40px;
     }
 
+    .specific {
+        margin-top: 40px;
+    }
+
     .specific__form {
         flex-direction: column;
     }
@@ -720,6 +732,10 @@ input {
 
     .footer__card .row {
         flex-direction: column;
+    }
+
+    .right__wrap {
+        margin-top: 30px;
     }
 
 }
