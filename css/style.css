@@ -148,6 +148,22 @@ a {
     list-style-type: none;
 }
 
+.choose .owl-carousel .owl-nav .owl-prev {
+    position: absolute;
+    left: 0;
+    top: 200px;
+    width: 20px;
+    height: 20px;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+}
+
+.choose .owl-carousel .owl-nav .owl-prev::before {
+    content: "\f053";
+}
+
+
+
 .list__title {
     font-family: 'Roboto', sans-serif;
     font-size: 36px;
