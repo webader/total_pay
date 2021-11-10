@@ -32,6 +32,10 @@ $(document).ready(function(){
 
         $( "#opener" ).on( "click", function() {
             $( "#dialog" ).dialog( "open" );
+            $('.ui-dialog .ui-corner-all .ui-widget .ui-widget-content .ui-front .ui-draggable .ui-resizable').css({
+                'width':'550px',
+                'font-size':'16px'
+            });
         });
     } );
 
