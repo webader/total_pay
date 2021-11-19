@@ -8,7 +8,7 @@ $(document).ready(function(){
 
         responsive:{
             0:{
-                items:3
+                items:1
             },
 
             1000:{
